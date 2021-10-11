@@ -1,5 +1,5 @@
 ## READ ME
-**Mercury in Retrograde** asks the question, _'Is Mercury in Retrograde?'_  <br>
+While I don't think about astrology often, **Mercury in Retrograde** asks the question, _'Is Mercury in Retrograde?'_  <br>
 You can now see the profound answer of **yes** or **no** displayed amongst the stars in your browser. <br><br>
 At the time of creating this, Mercury was, in fact, in retrograde:
 ![](retrograde.gif)
