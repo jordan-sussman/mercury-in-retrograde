@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Oxygen:300');
+
+body {
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  font-family: Oxygen, sans-serif;
+  color: #fff;
+}
+
+#answerinfo { 
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#answerinfo h1 {
+  font-size: 2vw;
+  margin-top: 25%;
+  margin-left: 48%;
+  line-height: 1;
+  position: absolute;
+}
+
+.star {
+  position: absolute;
+  left: 0px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation-name: moveX;
+          animation-name: moveX;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.small {
+  top: 10px;
+  width: 3px;
+  height: 3px;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;  
+  background-color: gray;
+}
+
+.medium {
+  top: 50px;
+  width: 4px;
+  height: 4px;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;  
+}
+
+.big {
+  left: 0px;
+  top: 100px;
+  width: 5px;
+  height: 5px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;  
+}
+
+@-webkit-keyframes moveX {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes moveX {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-200px);
+  }
+}
