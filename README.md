@@ -7,7 +7,7 @@ At the time of creating this, Mercury was, in fact, in retrograde:
 Built with:
 ```
 - Python
-- Jinja
+- Jinja2
 - HTTP Server
 - JavaScript
 - HTML
