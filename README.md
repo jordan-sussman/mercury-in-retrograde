@@ -12,7 +12,7 @@ Built with:
 - JavaScript
 - HTML
 - CSS
-- API
+- Mercury Retrograde API
 ```
 
 To run:
